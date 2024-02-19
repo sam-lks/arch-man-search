@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Arch Man Page Search",
+  "short_name": "Arch Man",
+  "description": "Arch Linux man pages search.",
+  "version": "1.0.0",
+  "chrome_settings_overrides": {
+    "search_provider": {
+      "name": "Arch man pages",
+      "keyword": "man",
+      "search_url": "https://man.archlinux.org/search?q={searchTerms}&go=Go"
+    }
+  },
+  "browser_specific_settings": {
+    "gecko": {
+        "id": "{99ca6c71-8ed8-4b23-86fb-872ebe215c04}",
+        "strict_min_version": "109.0"
+    }
+  },
+  "author": "sm",
+  "homepage_url": "https://github.com/sam-lks/arch-man-search"
+}
